@@ -24,8 +24,28 @@
       <li>Adoption Barriers: XR has a steeper learning curve and slower user adoption.</li>
       <li>Performance Constraints: XR can drain battery life and cause overheating on mobile devices.</li>
     </ul>
-  <li>What use cases does XR have?</li>
-  <li>How does XR add value to the end user?</li>
+  
+  <li>What use cases does XR have? (Marwa)</li> 
+  
+  <ul>
+    <li>Gaming and Entertainment: Creates immersive experiences, making games and media more engaging.</li>
+<li>Education and Training: Provides safe, realistic simulations for complex skill development in fields like medicine and aviation.</li>
+<li>Healthcare: Offers innovative treatment options and enhances medical training.</li>
+<li>Retail and E-Commerce: Improves shopping experiences through virtual try-ons and product visualization.</li>
+<li>Real Estate and Architecture: Facilitates virtual property walkthroughs and design visualization.</li>
+  </ul>
+  
+  <li>How does XR add value to the end user? (Marwa) </li> 
+
+<ul>
+  <li>Enhancing Engagement: XR makes experiences like gaming, shopping, and learning much more immersive and exciting, drawing users deeper into the experience.</li>
+  <li>Improving Skill Development: It creates safe, realistic environments where people can practice and learn without real-world risks, leading to better skills and confidence.</li>
+  <li>Revolutionizing Education and Training: XR offers interactive, hands-on learning experiences that make education more engaging and effective, whether it's for students or professionals.</li>
+  <li>Personalizing Experiences: XR tailors interactions to fit individual needs, like letting you try on clothes virtually or offering personalized therapy, making the experience more satisfying and relevant.</li>
+  <li>Increasing Convenience: It brings complex activities, such as virtual shopping or exploring properties, right to your home, saving you time and effort.</li>
+  <li>Innovating Treatment and Care: In healthcare, XR opens up new ways to treat patients and improve their well-being, offering more effective and engaging care options.</li>
+</ul>
+
   <li>How does current XR technology compare to an idealistic future vision of the technology? (Duarte)</li>
   <p>Current XR technology offers a sample of what is possible to do with this technology. It clearly remains behind the possible idealistic future but significant advancements are being made to close this gap. </p>
   <li>How does immersion and presence factor into XR? (Duarte)</li>
