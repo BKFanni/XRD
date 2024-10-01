@@ -15,3 +15,7 @@ Next, we will identify and discuss the use cases and features that would be impl
 <p></p>Next, I added an AR Session and an AR Session Origin to the scene. The AR Session manages the lifecycle of the AR experience, while the AR Session Origin aligns AR objects with the real world and includes an AR camera for tracking the environment. I ensured that the AR camera from the AR Session Origin was used instead of the default main camera.</p>
 <p>To integrate our 3D model, I added it to the prefabs and attached an AR Tracked Image Manager to the AR Session Origin. I then created a reference image, using our QR code as the serialized image library, and linked the 3D building plan model as the prefab for the tracked image.</p>
 
+
+<h2>Duarte</h2>
+<p>Before our first lab week, I took on the task of making the 3D model on Blender. It was my first time worKing with this tool but with the help of some videos I learned how to get around it and was able to complete my task.</p>
+<p>My next task was to implement Navigation Pathfinding that its not functional yet. I setup NavMesh, the first waypont and wrote a script that calculates the navigation path.</p>
