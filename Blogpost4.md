@@ -1,1 +1,3 @@
-
+<h2>Marwa, Fanni, Duarte, Andrejs</h2>
+<p>All 4 of us together were brainstorming on how to move forward with the project and fixing some issues. Andrejs made a new folder where he created a new project from scratch so that it would solve the team's issue with not being able to have the project open as it takes up too much memory on the computers. So he copy pasted the work that we have already done from the old to the new project folder. In the meantime, Duarte was working on the map and NavMesh components in Unity. Then everyone together was working on what we need to show to use user, how we can define the destinations in Unity (for that we place GameObjects in the scene).
+</p>
