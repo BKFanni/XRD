@@ -20,30 +20,30 @@ public class DestinationManager : MonoBehaviour
     // Destination transforms
     public Transform canteenDest;
     public Transform receptionDest;
-    /*public Transform elevatorADest;
+    public Transform elevatorADest;
     public Transform elevatorBDest;
     public Transform elevatorCDest;
-    public Transform elevatorMainDest;*/
+    public Transform elevatorMainDest;
 
     // UI buttons
     public Button canteenButton;
     public Button receptionButton;
-    /*public Button elevatorAButton;
+    public Button elevatorAButton;
     public Button elevatorBButton;
     public Button elevatorCButton;
     public Button elevatorMainButton;
-    public Button exitButton;*/
+    public Button exitButton;
 
     void Start()
     {
         // Add listeners to buttons
         canteenButton.onClick.AddListener(() => OnDestinationSelected(Destination.Canteen));
         receptionButton.onClick.AddListener(() => OnDestinationSelected(Destination.Reception));
-        /*elevatorAButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorA));
+        elevatorAButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorA));
         elevatorBButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorB));
         elevatorCButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorC));
         elevatorMainButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorMain));
-        exitButton.onClick.AddListener(ExitApplication);*/
+        exitButton.onClick.AddListener(ExitApplication);
     }
 
     // Handle destination selection
@@ -59,18 +59,18 @@ public class DestinationManager : MonoBehaviour
             case Destination.Reception:
                 SetDestination(receptionDest);
                 break;
-            /* case Destination.ElevatorA:
-                 SetDestination(elevatorADest);
-                 break;
-             case Destination.ElevatorB:
-                 SetDestination(elevatorBDest);
-                 break;
-             case Destination.ElevatorC:
-                 SetDestination(elevatorCDest);
-                 break;
-             case Destination.ElevatorMain:
-                 SetDestination(elevatorMainDest);
-                 break;*/
+            case Destination.ElevatorA:
+                SetDestination(elevatorADest);
+                break;
+            case Destination.ElevatorB:
+                SetDestination(elevatorBDest);
+                break;
+            case Destination.ElevatorC:
+                SetDestination(elevatorCDest);
+                break;
+            case Destination.ElevatorMain:
+                SetDestination(elevatorMainDest);
+                break;
             default:
                 Debug.Log("Unknown destination");
                 break;
