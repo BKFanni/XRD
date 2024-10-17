@@ -13,3 +13,8 @@ A key element of the project was the visualization of the navigation path. To as
 
 In the context of augmented reality, camera control is handled naturally by the user’s movement, as the AR system leverages the mobile device’s camera and sensors to determine orientation. Thus, no additional scripting was necessary to adjust the camera’s rotation or positioning manually. The user’s physical movement, captured by the AR system, allows the camera to automatically adjust based on how the user interacts with the environment.<br>
 </p>
+
+<h2>Marwa</h2>
+<p> After defining the game objects for the destinations (canteen, reception, elevators), I changed the destination options script by creating an enum to manage the different locations. After that, I referenced the destination option buttons and linked them to the corresponding Transform variables for each destination. I then built a navigation system using NavMeshAgent and UI buttons.
+  
+I set up the NavMeshAgent on the character and connected the destination points to the Transform variables in the script. I used AddListener() for each button to trigger navigation when clicked. The OnDestinationSelected() method determines the selected destination and calls SetDestination() to move the agent. I also added an exit button to close the application, allowing for easy navigation through the UI.</p>
