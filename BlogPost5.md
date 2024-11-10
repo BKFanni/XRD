@@ -15,3 +15,8 @@ Next, I configured the VR SDK to support VR interactions. I accessed **Edit > Pr
 
 With these initial steps completed, the project is now set up and ready for the development of VR interactions and immersive beach visuals.
 </p>
+
+<h2>Marwa</h2>
+<p>To prepare our VR experience, I started by adding an XR Rig to our project. This rig will serve as the user’s VR camera and controllers, allowing interaction within the environment once the beach scene is complete. Although we haven’t yet positioned the rig within the scene, it’s ready to be set up when the environment is fully prepared.
+
+For VR settings, I configured the project to use OpenXR as our target platform, ensuring compatibility across different VR devices. I enabled Virtual Reality Supported to let Unity recognize VR hardware, then set the Tracking Space to “Room Scale,” allowing users freedom to move around</p>
