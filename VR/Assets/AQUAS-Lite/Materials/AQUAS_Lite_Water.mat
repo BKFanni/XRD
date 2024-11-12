@@ -90,7 +90,7 @@ Material:
     - _EnableReflections: 1
     - _Fade: 2
     - _FarTilingDistance: 1000
-    - _FoamBlend: 0.15
+    - _FoamBlend: 0.3
     - _FoamContrast: 0.264
     - _FoamIntensity: 1.92
     - _FoamSpeed: 0.1
@@ -124,7 +124,7 @@ Material:
     - _UnderwaterMode: 0
     - _UnderwaterTranspDist: 13.56
     - _UnderwaterTranspFalloff: 0.78
-    - _WaveSpeed: 0.1
+    - _WaveSpeed: 0.06
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
