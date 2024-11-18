@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1774,6 +1774,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195846796}
   m_CullTransparentMesh: 1
+--- !u!1 &1213842400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213842402}
+  - component: {fileID: 1213842401}
+  m_Layer: 0
+  m_Name: DestinationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1213842401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213842400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2b7576b06ba2183b2008b8e44c3e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 1346332059}
+  canteenDest: {fileID: 1856909138}
+  receptionDest: {fileID: 188718225}
+  elevatorADest: {fileID: 1867762768}
+  elevatorBDest: {fileID: 818528414}
+  elevatorCDest: {fileID: 1956788959}
+  elevatorMainDest: {fileID: 1881924724}
+  canteenButton: {fileID: 2092833341}
+  receptionButton: {fileID: 1392857274}
+  elevatorAButton: {fileID: 1597090598}
+  elevatorBButton: {fileID: 562640782}
+  elevatorCButton: {fileID: 1195846798}
+  elevatorMainButton: {fileID: 1678600963}
+  exitButton: {fileID: 1320626752}
+--- !u!4 &1213842402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213842400}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 759.33905, y: 250.98642, z: 84.20529}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1320626750
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +3115,7 @@ GameObject:
   - component: {fileID: 1777557225}
   - component: {fileID: 1777557224}
   - component: {fileID: 1777557229}
+  - component: {fileID: 1777557230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3323,6 +3382,22 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &1777557230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777557222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1807093320
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,3 +4075,4 @@ SceneRoots:
   - {fileID: 1509141405}
   - {fileID: 233681916}
   - {fileID: 1820617820}
+  - {fileID: 1213842402}

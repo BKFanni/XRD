@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using System.IO;
+using UnityEngine.XR.ARSubsystems;
 
 public class QRandNavigationManager : MonoBehaviour
 {
     public ARPathfinding pathfindingScript;  // Reference to your ARPathfinding script
-    public Camera arCamera;  // AR camera for capturing images
+    public ARCameraManager arCameraManager; // Reference to ARCameraManager for capturing images
 
     private QRScanner qrScanner;
 
@@ -15,8 +18,8 @@ public class QRandNavigationManager : MonoBehaviour
 
     void Update()
     {
-        // Capture camera image and scan QR code (this is just an example, replace with actual camera feed logic)
-        Texture2D cameraImage = CaptureCameraImage();  // Method to get image from camera feed
+        // Capture camera image and scan QR code
+        Texture2D cameraImage = CaptureCameraImage();  // Capture camera image
 
         if (cameraImage != null)
         {
@@ -45,10 +48,48 @@ public class QRandNavigationManager : MonoBehaviour
         }
     }
 
-    // Placeholder method to simulate capturing a camera image
+    // Captures the AR camera image
     private Texture2D CaptureCameraImage()
     {
-        // Implement camera image capture logic here (use ARFoundation or other methods)
-        return new Texture2D(640, 480);  // Replace with actual camera image
+        if (arCameraManager == null)
+        {
+            Debug.LogWarning("ARCameraManager is not assigned.");
+            return null;
+        }
+
+        XRCpuImage image;
+        if (arCameraManager.TryAcquireLatestCpuImage(out image)) // Acquire the latest image from the camera
+        {
+            // Convert the image to Texture2D
+            Texture2D texture = ConvertCpuImageToTexture(image);
+            image.Dispose(); // Always dispose of the image when done
+            return texture;
+        }
+
+        Debug.LogWarning("Failed to acquire camera image.");
+        return null;
+    }
+
+    // Converts AR camera XRCpuImage to a Texture2D
+    private Texture2D ConvertCpuImageToTexture(XRCpuImage cpuImage)
+    {
+        // Set up Texture2D
+        Texture2D texture = new Texture2D(cpuImage.width, cpuImage.height, TextureFormat.RGBA32, false);
+
+        // Create a conversion parameter
+        XRCpuImage.ConversionParams conversionParams = new XRCpuImage.ConversionParams
+        {
+            inputRect = new RectInt(0, 0, cpuImage.width, cpuImage.height),
+            outputDimensions = new Vector2Int(cpuImage.width, cpuImage.height),
+            outputFormat = TextureFormat.RGBA32,
+            transformation = XRCpuImage.Transformation.None
+        };
+
+        // Allocate texture buffer
+        var rawTextureData = texture.GetRawTextureData<byte>();
+        cpuImage.Convert(conversionParams, rawTextureData);
+        texture.Apply(); // Apply the converted data to the texture
+
+        return texture;
     }
 }
