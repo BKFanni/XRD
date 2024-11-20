@@ -3212,15 +3212,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackCameraDisplay
       objectReference: {fileID: 0}
-    - target: {fileID: 8719195211248769767, guid: c2d14ce767554b642aac726f8ce82210,
+    - target: {fileID: 3068359030112128201, guid: c2d14ce767554b642aac726f8ce82210,
         type: 3}
-      propertyPath: m_AnchorMax.x
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8719195211248769767, guid: c2d14ce767554b642aac726f8ce82210,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719195211248769767, guid: c2d14ce767554b642aac726f8ce82210,
+        type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
