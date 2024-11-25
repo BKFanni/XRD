@@ -85,9 +85,10 @@ Initial user testing highlighted the application's effectiveness in promoting re
 
 <h2>Future Development</h2>  
 To further enhance the application, the team plans to:  
-- Introduce new relaxation environments, such as rainforests, mountain ranges, or underwater scenes.  
-- Add personalization features, like adjusting weather or time of day within each scene.  
-- Implement guided meditation sessions or breathing exercises for added mindfulness.  
-
+<ul>
+<li>- Introduce new relaxation environments, such as rainforests, mountain ranges, or underwater scenes. </li> 
+<li>- Add personalization features, like adjusting weather or time of day within each scene.  </li>
+<li>- Implement guided meditation sessions or breathing exercises for added mindfulness.  </li>
+</ul>
 <h2>Conclusion</h2>  
 The VR Meditation Space exemplifies the power of virtual reality as a tool for mental health and wellness. By merging technology with the timeless need for relaxation, this project paves the way for innovative applications in the realm of mindfulness and self-care. The team is committed to expanding and refining the experience to ensure it meets the diverse needs of users seeking peace in a digital world.
