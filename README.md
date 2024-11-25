@@ -41,11 +41,12 @@ The application was tested within the university to ensure accuracy and usabilit
 
 <h2>Future Enhancements </h2>
 To further improve the application, future developments could include:  
-- Adding support for more floors and facilities.  
-- Expanding the destination list to include classrooms and other important locations.  
-- Implementing voice-guided navigation for accessibility.  
-- Providing real-time updates for temporary changes, such as closed areas or event-specific adjustments.
-
+<ul>
+<li>Adding support for more floors and facilities.</li>  
+<li>Expanding the destination list to include classrooms and other important locations.  </li>
+<li>Implementing voice-guided navigation for accessibility.  </li>
+<li>Providing real-time updates for temporary changes, such as closed areas or event-specific adjustments.</li>
+</ul>
 <h2>Conclusion</h2>
 This AR navigation application showcases the power of augmented reality in solving real-world challenges. By improving accessibility and reducing confusion on campus, it has the potential to become an indispensable tool for students, staff, and visitors alike. This project reflects the team's dedication to innovation and the practical application of AR technology.
 
@@ -86,9 +87,9 @@ Initial user testing highlighted the application's effectiveness in promoting re
 <h2>Future Development</h2>  
 To further enhance the application, the team plans to:  
 <ul>
-<li>- Introduce new relaxation environments, such as rainforests, mountain ranges, or underwater scenes. </li> 
-<li>- Add personalization features, like adjusting weather or time of day within each scene.  </li>
-<li>- Implement guided meditation sessions or breathing exercises for added mindfulness.  </li>
+<li>Introduce new relaxation environments, such as rainforests, mountain ranges, or underwater scenes. </li> 
+<li>Add personalization features, like adjusting weather or time of day within each scene.  </li>
+<li>Implement guided meditation sessions or breathing exercises for added mindfulness.  </li>
 </ul>
 <h2>Conclusion</h2>  
 The VR Meditation Space exemplifies the power of virtual reality as a tool for mental health and wellness. By merging technology with the timeless need for relaxation, this project paves the way for innovative applications in the realm of mindfulness and self-care. The team is committed to expanding and refining the experience to ensure it meets the diverse needs of users seeking peace in a digital world.
