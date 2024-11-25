@@ -1,12 +1,12 @@
 {
-    "m_SelectedDeviceId": "ce07182784cbb83404",
+    "m_SelectedDeviceId": "ce0917196897eb2f01",
     "m_SelectedProcess": {
-        "deviceId": "ce07182784cbb83404",
-        "name": "com.unity.template.ar_mobile",
-        "processId": 20012,
+        "deviceId": "ce0917196897eb2f01",
+        "name": "com.unity.xrdar",
+        "processId": 14972,
         "exited": false
     },
-    "m_SelectedPriority": 0,
+    "m_SelectedPriority": 4,
     "m_KnownProcessesForSerialization": [
         {
             "deviceId": "ce07182784cbb83404",
@@ -30,6 +30,48 @@
             "deviceId": "ce07182784cbb83404",
             "name": "com.unity.template.ar_mobile",
             "processId": 20012,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.sec.android.app.launcher",
+            "processId": 5161,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.unity.xrdar",
+            "processId": 5903,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.unity.xrdar",
+            "processId": 7131,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.unity.xrdar",
+            "processId": 9399,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.unity.xrdar",
+            "processId": 10348,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.unity.xrdar",
+            "processId": 13793,
+            "exited": false
+        },
+        {
+            "deviceId": "ce0917196897eb2f01",
+            "name": "com.unity.xrdar",
+            "processId": 14972,
             "exited": false
         }
     ],
