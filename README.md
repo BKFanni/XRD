@@ -12,13 +12,13 @@ The application addresses a common issue faced by newcomers and regular users of
 <h3>1. QR Code Location Determination:</h3>
    Upon launching the application, users are prompted to scan a QR code located at strategic points on the first floor. This step establishes the user’s starting location, ensuring accurate navigation.
 
-2. <h3>Destination Selection:</h3>
+<h3>2. Destination Selection:</h3>
    The application provides a straightforward interface where users can choose from a list of predefined destinations, including the canteen, elevators, and reception.
 
-3. <h3>Interactive AR Navigation:  </h3>
+<h3>3. Interactive AR Navigation:  </h3>
    After selecting a destination, the application overlays directional lines onto the user's real-world view, guiding them step-by-step to their desired location.
 
-4. <h3>Integration with Building Plan:</h3>
+<h3>4. Integration with Building Plan:</h3>
    The navigation logic is built on the university’s official building plan, ensuring accurate and reliable directions.
 
 <h2>Development Process</h2>
