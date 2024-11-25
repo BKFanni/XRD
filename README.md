@@ -9,7 +9,7 @@ The AR Navigation Mobile Application was developed as part of an innovative proj
 The application addresses a common issue faced by newcomers and regular users of the campus: difficulty in finding facilities within a complex building layout. By leveraging AR technology, this application simplifies navigation and enhances the overall user experience, making it particularly useful during busy periods such as enrollment days, events, or exams.
 
 <h2>Key Features</h2>
-1. <h3>QR Code Location Determination:</h3>
+<h3>1. QR Code Location Determination:</h3>
    Upon launching the application, users are prompted to scan a QR code located at strategic points on the first floor. This step establishes the user’s starting location, ensuring accurate navigation.
 
 2. <h3>Destination Selection:</h3>
