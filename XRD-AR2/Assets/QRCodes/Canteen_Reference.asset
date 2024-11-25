@@ -25,12 +25,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 17703984735607064902
       m_GuidHigh: 15278122022798560443
-<<<<<<< HEAD
-    m_Size: {x: 0.1, y: 0.09}
-    m_SpecifySize: 1
-=======
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
->>>>>>> main
     m_Name: Canteen_QR
     m_Texture: {fileID: 0}

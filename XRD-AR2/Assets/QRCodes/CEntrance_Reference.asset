@@ -25,12 +25,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 8785227246899611736
       m_GuidHigh: 1465763018679008089
-<<<<<<< HEAD
-    m_Size: {x: 0.1, y: 0.09}
-    m_SpecifySize: 1
-=======
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
->>>>>>> main
     m_Name: CEntrance_QR
     m_Texture: {fileID: 0}
