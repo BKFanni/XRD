@@ -49,10 +49,6 @@ To further improve the application, future developments could include:
 <h2>Conclusion</h2>
 This AR navigation application showcases the power of augmented reality in solving real-world challenges. By improving accessibility and reducing confusion on campus, it has the potential to become an indispensable tool for students, staff, and visitors alike. This project reflects the team's dedication to innovation and the practical application of AR technology.
 
-
-
-
-</hr>
 <h1>VR Meditation Space</h1>
 
 <h2>Overview</h2>
