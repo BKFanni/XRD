@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.AI;
 
 public enum Destination
 {
@@ -14,9 +13,6 @@ public enum Destination
 
 public class DestinationManager : MonoBehaviour
 {
-    // Reference to the NavMeshAgent for navigation
-    public NavMeshAgent agent;
-
     // Destination transforms
     public Transform canteenDest;
     public Transform receptionDest;
@@ -112,7 +108,7 @@ public class DestinationManager : MonoBehaviour
     // Method to set the destination for the NavMeshAgent
     public void SetDestination(Transform destination)
     {
-        if (agent != null && destination != null)
+        /*if (agent != null && destination != null)
         {
             currentDestination = destination; // Set the current destination for Update checks
             agent.SetDestination(destination.position);
@@ -121,7 +117,7 @@ public class DestinationManager : MonoBehaviour
         else
         {
             Debug.LogWarning("Agent or Destination is missing!");
-        }
+        }*/
     }
 
     // Exit application
