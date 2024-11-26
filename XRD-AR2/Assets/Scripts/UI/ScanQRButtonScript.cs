@@ -2,15 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
 public class ScanQRButtonScript : MonoBehaviour
 {
     [SerializeField]
-    private Canvas menuCanvas;
+    private string mainSceneName = "NewMainScene";
     [SerializeField]
-    private Canvas QRScanningCanvas;
+    private string QRScanningScene = "QRScanScene";
 
     private Button button;
 
@@ -18,23 +19,18 @@ public class ScanQRButtonScript : MonoBehaviour
     void Start()
     {
         button = GetComponent<Button>();
-        button.onClick.AddListener(() => ChangeCanvas());
+        button.onClick.AddListener(() => SwitchScene());
     }
 
-    private void ChangeCanvas()
+    private void SwitchScene()
     {
-        Console.WriteLine("Changing canvas");
-        if (menuCanvas.enabled)
+        var activeScene = SceneManager.GetActiveScene();
+        if (activeScene.name.Equals(mainSceneName))
         {
-            // Changing to qr scanning canvas
-            QRScanningCanvas.enabled = true;
-            menuCanvas.enabled = false;
+            SceneManager.LoadScene(QRScanningScene);
             return;
         }
 
-        // Changing to menu canvas
-        menuCanvas.enabled = true;
-        QRScanningCanvas.enabled = false;
-        return;
+        SceneManager.LoadScene(mainSceneName);
     }
 }
