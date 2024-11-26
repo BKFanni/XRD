@@ -643,7 +643,7 @@ MonoBehaviour:
   - {fileID: 8062688781402712062}
   - {fileID: 9135951953500605691}
   m_renderMode: 1
-  m_depthSubmissionMode: 1
+  m_depthSubmissionMode: 0
   m_symmetricProjection: 0
 --- !u!114 &4753633427631804523
 MonoBehaviour:
