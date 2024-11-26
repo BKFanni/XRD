@@ -12,3 +12,10 @@ As for the VR project, I have added a sand castle as an object on the beach. I h
 For our VR project, I added beach objects to use as interactable items such as Aquarius, Desk, starfish, and other beach stuff. I wrote a script called `ThrowableObject.cs` to allow users to pick up and throw the object naturally. This script keeps track of the object’s velocity during interaction and applies that velocity when the object is released, creating a realistic throwing effect.
 
 To set everything up, I added a Collider to detect interactions and a Rigidbody for physics simulation, initially set to kinematic. I then attached the XR Grab Interactable component, which handles the grabbing and releasing mechanics. In the component’s settings, I linked the OnGrabbed method to disable physics when the object is picked up, and the OnReleased method to re-enable physics and apply the velocity when it’s thrown.
+
+
+<h2>Duarte</h2>
+<p>
+I spent this last session making tests with the oculus and trying to fix bugs.
+We ran into a problem where we could not see the controllers after building and running the application in the device. So I worked mostly on that problem trying to understand and fix what was causing this issue.
+</p>

@@ -20,3 +20,8 @@ With these initial steps completed, the project is now set up and ready for the 
 <p>To prepare our VR experience, I started by adding an XR Rig to our project. This rig will serve as the user’s VR camera and controllers, allowing interaction within the environment once the beach scene is complete. Although we haven’t yet positioned the rig within the scene, it’s ready to be set up when the environment is fully prepared.
 
 For VR settings, I configured the project to use OpenXR as our target platform, ensuring compatibility across different VR devices. I enabled Virtual Reality Supported to let Unity recognize VR hardware, then set the Tracking Space to “Room Scale,” allowing users freedom to move around</p>
+
+
+<h2>Duarte</h2>
+<p> My first Task for this project was to look for or create assets that we could use to build the island. I learned how to build a terrain in unity so I created our island and then added some water from an asset I found on Unity Store. I also added trees and a skybox to create a better environment.
+</p>

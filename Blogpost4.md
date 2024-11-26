@@ -18,3 +18,8 @@ In the context of augmented reality, camera control is handled naturally by the 
 <p> After defining the game objects for the destinations (canteen, reception, elevators), I changed the destination options script by creating an enum to manage the different locations. After that, I referenced the destination option buttons and linked them to the corresponding Transform variables for each destination. I then built a navigation system using NavMeshAgent and UI buttons.
   
 I set up the NavMeshAgent on the character and connected the destination points to the Transform variables in the script. I used AddListener() for each button to trigger navigation when clicked. The OnDestinationSelected() method determines the selected destination and calls SetDestination() to move the agent. I also added an exit button to close the application, allowing for easy navigation through the UI.</p>
+
+
+<h2>Duarte</h2>
+<p>
+</p>

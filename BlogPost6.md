@@ -7,3 +7,10 @@ Next, I created an Audio Source component, attaching it to the XR Rig. I assigne
 <h2>Fanni</h2>
 
 I added a sunrise and sunset skybox in the lightning settings menu to the beach scene. Then I adjusted the directional light to create a more realistic atmosphere, to enhance the visual experience in the VR project.
+
+
+<h2>Duarte</h2>
+<p>
+In our second session we ran into some problems with the water asset, so I looked for a different asset to fix the issue. I also tested the app inside the oculus and tried working with meta quest link app but unfortunately, my laptop does not fit the requirements to use quest link.
+I spent most of this session setting up a testing environment.
+</p>
