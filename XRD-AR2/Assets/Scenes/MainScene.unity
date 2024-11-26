@@ -826,6 +826,7 @@ MonoBehaviour:
   elevatorCButton: {fileID: 1195846798}
   elevatorMainButton: {fileID: 1678600963}
   exitButton: {fileID: 1320626752}
+  menuCanvas: {fileID: 0}
 --- !u!1 &481040421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2795,6 +2796,7 @@ MonoBehaviour:
   elevatorCButton: {fileID: 1195846798}
   elevatorMainButton: {fileID: 1678600963}
   exitButton: {fileID: 1320626752}
+  menuCanvas: {fileID: 233681912}
 --- !u!114 &1346332061
 MonoBehaviour:
   m_ObjectHideFlags: 0
