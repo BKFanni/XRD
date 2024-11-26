@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "ce0917196897eb2f01",
+    "m_SelectedDeviceId": "ce07182784cbb83404",
     "m_SelectedProcess": {
-        "deviceId": "ce0917196897eb2f01",
+        "deviceId": "ce07182784cbb83404",
         "name": "com.unity.xrdar",
-        "processId": 14972,
+        "processId": 31055,
         "exited": false
     },
     "m_SelectedPriority": 4,
@@ -30,6 +30,24 @@
             "deviceId": "ce07182784cbb83404",
             "name": "com.unity.template.ar_mobile",
             "processId": 20012,
+            "exited": false
+        },
+        {
+            "deviceId": "ce07182784cbb83404",
+            "name": "com.unity.xrdar",
+            "processId": 22659,
+            "exited": false
+        },
+        {
+            "deviceId": "ce07182784cbb83404",
+            "name": "com.unity.xrdar",
+            "processId": 26929,
+            "exited": false
+        },
+        {
+            "deviceId": "ce07182784cbb83404",
+            "name": "com.unity.xrdar",
+            "processId": 31055,
             "exited": false
         },
         {
