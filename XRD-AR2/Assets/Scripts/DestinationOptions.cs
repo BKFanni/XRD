@@ -30,6 +30,12 @@ public class DestinationManager : MonoBehaviour
     public Button elevatorMainButton;
     public Button exitButton;
 
+    // Reference to the MenuCanvas
+    public GameObject menuCanvas;
+ 
+    // Current destination transform
+    private Transform currentDestination;
+
     void Start()
     {
         // Add listeners to buttons
@@ -40,6 +46,22 @@ public class DestinationManager : MonoBehaviour
         elevatorCButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorC));
         elevatorMainButton.onClick.AddListener(() => OnDestinationSelected(Destination.ElevatorMain));
         exitButton.onClick.AddListener(ExitApplication);
+    }
+
+     void Update()
+    {
+        // Check if the agent has reached the destination
+        if ((currentDestination != null) && (Vector3.Distance(agent.transform.position, currentDestination.position) < 2))
+        {
+            Debug.Log("Destination reached: " + currentDestination.name);
+
+            // Show the MenuCanvas
+            if (menuCanvas != null && !menuCanvas.activeSelf)
+            {
+                menuCanvas.SetActive(true);
+                currentDestination = null; // Clear the destination to stop further checks
+            }
+        }
     }
 
     // Handle destination selection
@@ -71,6 +93,16 @@ public class DestinationManager : MonoBehaviour
                 Debug.Log("Unknown destination");
                 break;
         }
+
+        // Disable the MenuCanvas
+        if (menuCanvas != null)
+        {
+            menuCanvas.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("MenuCanvas is not assigned!");
+        }
     }
 
     // Method to set the destination for the NavMeshAgent
@@ -78,6 +110,7 @@ public class DestinationManager : MonoBehaviour
     {
         /*if (agent != null && destination != null)
         {
+            currentDestination = destination; // Set the current destination for Update checks
             agent.SetDestination(destination.position);
             Debug.Log("Navigating to: " + destination.name);
         }
