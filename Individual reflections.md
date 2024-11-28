@@ -7,3 +7,14 @@ For the AR Navigation Mobile Application, I focused on setting up AR markers to 
 The VR Meditation Space project involved creating a relaxing virtual environment. I set up an XR Rig for room-scale tracking and added calming elements like ambient ocean sounds and 3D audio for a more engaging experience. I also incorporated interactive features, such as throwable objects, to make the space playful and soothing. This project helped me understand how to design engaging virtual spaces and implement natural interactions for users.
 
 Looking back, I’m proud of how much I’ve learned and grown as a developer. These projects sharpened my skills in Unity, C#, and XR tools, while also deepening my understanding of user experience design. The course has inspired me to explore XR’s potential further and apply it to areas like education, healthcare, and entertainment. </p>
+
+
+<h3>Duarte Peixoto Jorge(331347)</h3>
+<p> The XR course was a great experience for me, pushing me beyond my comfort zone and introducing me to the fascinating world of extended reality. It was my first time working with tools like Unity and Blender so coming from a background with zero experience i found it quite hard to get used to these new tools. The course not only strengthened my technical foundation but also inspired me to think creatively about how XR can solve real-world problems.
+
+I had the chance to work on two very different projects: an AR Navigation Mobile Application and a VR Meditation Space. For the AR project, my primary focus was on creating a navigation system that could guide students to specific locations, such as the canteen or reception. I started by building a real-sized model of VIA's first floor in Blender and then created a NavMesh so we could later calculate the distance between waypoints.
+
+On the VR Meditaion Space, my tasks were mainly focused on making the scenario. Using Unity's terrain functionality I built the island model. After that I searched for assets online to complete our scenario. These included water, trees and some rocks that ended up not being used. This project was the one I enjoyed working on the most and I believe that if we had a bit more time, we could have developed something of higher quality.
+
+Overall, this course has been a defining chapter in my journey as a developer. Working on these projects gave me valuable hands-on experience with Unity, Blender and XR tools, while also teaching me how to approach user experience with empathy and creativity. Overall I am satisfied with my performance but I believe I still have quite a lot to learn, mostly in C# and certain Unity functionalities. 
+</p>
