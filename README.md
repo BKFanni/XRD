@@ -2,6 +2,8 @@
 
 <h1>AR Navigation Mobile Application for VIA University College</h1>
 
+<h3>The demo video of the AR application can be viewed <a href="https://youtu.be/ht6bajlLTVM">here.</a></h3>
+
 <h2>Overview</h2>
 The AR Navigation Mobile Application was developed as part of an innovative project aimed at improving navigation within the campus of VIA University College. Recognizing the challenges faced by students, visitors, and staff in locating facilities such as the canteen, elevators, and reception, the team designed an AR-based solution to provide a seamless and user-friendly navigation experience. Due to time-constraints, the developers focused on implementing the project for the 1st floor of the Campus, not the whole building.
 

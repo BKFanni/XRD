@@ -18,3 +18,7 @@ Next, I wrote a DestinationManager script to handle user interactions. In the St
 I also implemented an Exit button so that users can close the app easily. The ExitApplication() function is responsible for handling this, allowing the app to terminate cleanly when the exit button is pressed.
 
 This structure provides a simple and efficient way for users to interact with our app, select destinations, and navigate through the AR experience.</p>
+
+
+<h2>Duarte</h2>
+<p>The navigation system was still not working completely so I worked together with Fanni to fix this issue.</p>

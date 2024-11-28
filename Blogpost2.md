@@ -17,7 +17,7 @@ Next, we will identify and discuss the use cases and features that would be impl
 
 
 <h2>Duarte</h2>
-<p>Before our first lab week, I took on the task of making the 3D model on Blender. It was my first time worKing with this tool but with the help of some videos I learned how to get around it and was able to complete my task.</p>
+<p>Before our first lab week, I took on the task of making the 3D model on Blender. It was my first time working with this tool but with the help of some videos I learned how to get around it and was able to complete my task.</p>
 <p>My next task was to implement Navigation Pathfinding that its not functional yet. I setup NavMesh, the first waypont and wrote a script that calculates the navigation path.</p>
 
 <h2>Andrejs</h2>
