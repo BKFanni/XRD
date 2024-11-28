@@ -78,18 +78,18 @@ In today's fast-paced world, stress and burnout are common challenges. The Medit
 The VR Meditation Space was developed through a collaborative and iterative process:  
 - <h3>Environment Design:</h3>  
   The island environment was crafted using Unity’s terrain and asset tools, with careful attention to details like water reflections, textures, and lighting to create a lifelike atmosphere.  
-  
-<h2>Assets used for the implementation</h2>
-<ul>
-   <li> <a href="https://poly.pizza/m/5ZMAz7_ucTn"> Sand Castle </a> </li>
-   <li> <a href="https://www.fab.com/listings/59d75767-8f99-4d0d-adc4-49461dc84057">  Beach Food </a> </li>
-</ul>
 
 - <h3>Audio Integration:  </h3>
   Ocean wave sounds were added to enhance the realism and immersion of the environment, using spatial audio to provide an authentic 3D experience.  
 
 - <h3>Interaction System:</h3>
   The XR Interaction Toolkit was implemented to enable intuitive interactions, allowing users to pick up and manipulate virtual objects easily.   
+
+<h2>Assets used for the implementation</h2>
+<ul>
+   <li> <a href="https://poly.pizza/m/5ZMAz7_ucTn"> Sand Castle </a> </li>
+   <li> <a href="https://www.fab.com/listings/59d75767-8f99-4d0d-adc4-49461dc84057">  Beach Food </a> </li>
+</ul>
 
 <h2>Impact and Usability</h2>
 Initial user testing highlighted the application's effectiveness in promoting relaxation and reducing stress. The calming visuals and sounds, combined with interactive elements, create a balanced experience that appeals to both VR enthusiasts and newcomers.  
