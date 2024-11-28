@@ -23,3 +23,6 @@ I set up the NavMeshAgent on the character and connected the destination points 
 <h2>Duarte</h2>
 <p>
 </p>
+
+<h2>Andrejs</h2>
+<p>Most of what I did was trying to figure out how to fix the existing project before settling with others that it's best to make a new one. After creating a new one, I copied over the old stuff that I had done and helped testing the project again to make sure it works correctly.</p>
