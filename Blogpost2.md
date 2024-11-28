@@ -19,3 +19,8 @@ Next, we will identify and discuss the use cases and features that would be impl
 <h2>Duarte</h2>
 <p>Before our first lab week, I took on the task of making the 3D model on Blender. It was my first time working with this tool but with the help of some videos I learned how to get around it and was able to complete my task.</p>
 <p>My next task was to implement Navigation Pathfinding that its not functional yet. I setup NavMesh, the first waypont and wrote a script that calculates the navigation path.</p>
+
+<h2>Andrejs</h2>
+<p>Since our AR project revolved around navigating VIA Horsens building, my first task was to ask for the building plans from Simon Torntoft (sito@via.dk), so that Duarte could make the 3D model in Blender.</p>
+<p>After getting the building plans, we decided to start with the first floor and have only the main interest points - Canteen, Entrances and Reception. I generated the QR codes using a <a href="https://www.qr-code-generator.com/">QR code generator</a> website and saved them in both SVG for portability and scalability, as well as PNG to import them into the Unity engine.</p>
+<p>For the app to know where the user is located initially, we decided to make them scan one of those QR codes, so for the AR project to recognize them and track the world using them, I made Image Reference objects (XR Image Reference library) for each QR code.

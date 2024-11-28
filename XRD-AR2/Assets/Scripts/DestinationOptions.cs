@@ -51,7 +51,7 @@ public class DestinationManager : MonoBehaviour
      void Update()
     {
         // Check if the agent has reached the destination
-        if ((currentDestination != null) && (Vector3.Distance(agent.transform.position, currentDestination.position) < 2))
+        /*if ((currentDestination != null) && (Vector3.Distance(agent.transform.position, currentDestination.position) < 2))
         {
             Debug.Log("Destination reached: " + currentDestination.name);
 
@@ -61,7 +61,7 @@ public class DestinationManager : MonoBehaviour
                 menuCanvas.SetActive(true);
                 currentDestination = null; // Clear the destination to stop further checks
             }
-        }
+        }*/
     }
 
     // Handle destination selection
