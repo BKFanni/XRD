@@ -25,3 +25,8 @@ For VR settings, I configured the project to use OpenXR as our target platform, 
 <h2>Duarte</h2>
 <p> My first Task for this project was to look for or create assets that we could use to build the island. I learned how to build a terrain in unity so I created our island and then added some water from an asset I found on Unity Store. I also added trees and a skybox to create a better environment.
 </p>
+
+<h2>Andrejs</h2>
+<p>
+Similar to Duarte, my tasks revolved around making the objects interactable and animate them. For that I started scouting for interactable objects for the project and decided that food and small animals would fit perfectly for a calm beach. The main assets we decided to use later were sand castle, fish, crabs, starfish and some sandbox toys.
+</p>
