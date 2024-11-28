@@ -21,7 +21,7 @@ I set up the NavMeshAgent on the character and connected the destination points 
 
 
 <h2>Duarte</h2>
-<p>
+<p> During this week, we kept getting errors with navigation so I worked together with Andrejs trying to figure out solutions to solve them. Most of my work in this session was discarded because at the end the same error was showing up. 
 </p>
 
 <h2>Andrejs</h2>
