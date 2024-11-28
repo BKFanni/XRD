@@ -54,6 +54,8 @@ This AR navigation application showcases the power of augmented reality in solvi
 
 <h1>VR Meditation Space</h1>
 
+<h3>The demo video of the VR application can be viewed <a href="https://www.youtube.com/watch?v=0y3REhDCH-I">here.</a></h3>
+
 <h2>Overview</h2>
 The VR Meditation Space is an immersive virtual reality application designed to provide users with a tranquil environment to relax and de-stress. Developed using Unity and OpenXR, the application is compatible with various VR devices, ensuring accessibility and flexibility for a wide audience. By combining the serene beauty of natural environments with interactive elements, the project offers a unique relaxation experience.  
 
