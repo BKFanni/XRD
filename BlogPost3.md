@@ -22,3 +22,6 @@ This structure provides a simple and efficient way for users to interact with ou
 
 <h2>Duarte</h2>
 <p>The navigation system was still not working completely so I worked together with Fanni to fix this issue.</p>
+
+<h2>Andrejs</h2>
+<p>There were some issues with the navigation mesh and the floor model, so I helped Duarte fix them. We used the navigation mesh to calculate the path for the user to take to get to their destination. I also helped debugging and testing the locations and fixed their places in the map. To calculate the destinations I placed cube GameObjects without collision and without a MeshRenderer, so they act only as position GameObjects.</p>
