@@ -89,6 +89,8 @@ The VR Meditation Space was developed through a collaborative and iterative proc
 <ul>
    <li> <a href="https://poly.pizza/m/5ZMAz7_ucTn"> Sand Castle </a> </li>
    <li> <a href="https://www.fab.com/listings/59d75767-8f99-4d0d-adc4-49461dc84057">  Beach Food </a> </li>
+   <li> <a href="https://assetstore.unity.com/packages/3d/vegetation/trees/coconut-palm-tree-pack-7888">  Palm Trees </a> </li>
+   <li> <a href="https://github.com/wave-harmonic/crest">  Water </a> </li>
 </ul>
 
 <h2>Impact and Usability</h2>
