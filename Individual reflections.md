@@ -18,3 +18,14 @@ On the VR Meditaion Space, my tasks were mainly focused on making the scenario. 
 
 Overall, this course has been a defining chapter in my journey as a developer. Working on these projects gave me valuable hands-on experience with Unity, Blender and XR tools, while also teaching me how to approach user experience with empathy and creativity. Overall I am satisfied with my performance but I believe I still have quite a lot to learn, mostly in C# and certain Unity functionalities. 
 </p>
+
+<h3>Klaudia Fanni Balog (315214)</h3>
+<p>
+Throughout the XRD course, I had the opportunity to work on two exciting and challenging projects that pushed my skills and expanded my understanding of immersive technologies: an AR mobile application and a VR application. Both projects were developed using Unity, and each offered a unique set of learning experiences.
+
+The AR mobile application aimed to assist new students and other visitors in navigating the 1st floor of our campus building. It provided a user-friendly interface to locate important points within the building, such as classrooms, offices, and facilities. Implementing AR features in Unity was initially a steep learning curve, especially when configuring the map-based selection interface and integrating AR functionalities. However, as I gained familiarity with the tools and frameworks, it became a rewarding experience to see the app come to life and provide a practical solution to a real-world problem.
+
+The VR application, called "Meditation Space", was designed as a calming and immersive environment for mindfulness and relaxation. The project was particularly meaningful as it focused on promoting mental well-being. I enjoyed exploring creative ways to design the environment, such as adding dynamic lighting and interactable elements to enhance the overall experience. Using the XR Interaction Toolkit with OpenXR in Unity presented some initial challenges, but it also allowed me to delve deeper into VR development techniques and experiment with interaction mechanics.
+
+Although both projects were challenging to implement as we faced some obstacles, it was a really fun and valuable experience. They tested my ability to problem-solve, adapt to new tools, and collaborate effectively. Through this course, I gained valuable hands-on experience with XRD technologies and a deeper appreciation for the potential of AR and VR to transform user experiences. I am excited to continue exploring AR and VR in future projects and to apply these skills in real-world contexts.
+</p>
