@@ -29,3 +29,24 @@ The VR application, called "Meditation Space", was designed as a calming and imm
 
 Although both projects were challenging to implement as we faced some obstacles, it was a really fun and valuable experience. They tested my ability to problem-solve, adapt to new tools, and collaborate effectively. Through this course, I gained valuable hands-on experience with XRD technologies and a deeper appreciation for the potential of AR and VR to transform user experiences. I am excited to continue exploring AR and VR in future projects and to apply these skills in real-world contexts.
 </p>
+
+<h3>Andrejs Davis Umbrovskis (315210)</h3>
+<p>
+By taking the XRD course, I had the opportunity to learn 2 technologies I found difficult to understand from a developer's point of view.
+Before taking the course, I thought that to work on AR and especially on VR you need to be good at math, because AR is all about finding surfaces in the real world and VR would be trying to find the player in the real world and how to place them in the game.
+To my surprise, Unity had already solved them, as well as made it relatively easy to support multiple VR vendors. Best of all, I only had to learn how to use Unity for AR/VR development, not Unity in general, as I had used it before in a game development course.
+
+The first challenge was to create an AR application - we chose to make a navigation type application. Initially we thought it will go smooth, but problems started arising when we had to debug the application and moving around.
+It was hard to understand how to correctly set up the project, and we even had to do it multiple times, because sometimes a configuration change fixed something for one person and broke the project for others.
+Initially, we also couldn't understand why our test UI works in editor but not when testing on phone, in the end we realised that we don't control the player at all, we can only change environment around them.
+Another pain point for me was, that my phone specifically wasn't supported by ARCore, yet even some older phones were. This resulted in us mostly testing on VIA's hardware, which took more time and was frustrating.
+
+After AR project, I hoped that the VR project will be easier, but sadly that wasn't the case.
+Just like with AR, VR also had problems when trying to configure the project, and worst part for me was, that I wasn't able to test it on my PC, because it wasn't powerful enough.
+It was fun to try out our project on VIA's VR hardware though, although for a long time we had problems making the player move and interact with the environment correctly.
+Suffice to say, it was really confusing to set up the VR player/character in Unity, and testing it in editor play mode wasn't equilavent of doing it on real hardware.
+Helping design and create the VR project's beach, filled with food and toys also helped me learn about level design and what works best for what purpose.
+
+Overall, the course really helped me understand how difficult AR and VR development is, but that it gets easier as you learn the tools.
+Only change I would like is a better notice on hardware requirements for the course, as the projects get quite large and for AR/VR projects there are some hardware limitations.
+</p>
